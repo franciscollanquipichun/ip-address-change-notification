@@ -1,0 +1,31 @@
+{
+  "name": "@franciscollanquipichun/ip-address-change-notification",
+  "version": "1.0.0",
+  "description": "CLI tool to public IP address change notification",
+  "main": "src/index.js",
+  "bin": {
+    "@franciscollanquipichun/ip-address-change-notification": "bin/ip-address-change-notification",
+    "ip-address-change-notification": "bin/ip-address-change-notification"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "ip"
+  ],
+  "author": {
+    "name": "Francisco Llanquipichun",
+    "url": "https://francisco.llanquipichun.cl"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "nodemailer": "^6.8.0"
+  }
+}

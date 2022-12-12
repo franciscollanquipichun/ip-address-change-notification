@@ -1,0 +1,5 @@
+# SMTP config to send email
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=465
+SMTP_USER=
+SMTP_PASS=
